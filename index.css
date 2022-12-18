@@ -1,0 +1,159 @@
+*{margin: 0; padding:0}
+
+a {
+    text-decoration: none;
+}
+
+#barra-superior{
+    background-color: #333333;
+    display: flex;
+    justify-content:center;
+}
+
+#titulo{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#nav-bar{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    justify-content: center 
+}
+
+#nav-bar-2{
+    text-decoration: none;
+    color: #008040;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    justify-content: center 
+}
+
+#img-logo{
+    width: 100%;
+}
+
+#banner-con-foto{
+    background-image: url("ba1oscura.jpg");
+    background-color: #333333;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    padding: 5%;
+    padding-top: 20%;
+    text-align: right;
+}
+
+.btn btn-success{
+    display: flex;
+    float: right;
+}
+
+#boton-oradores{
+    display: flex;
+    float: left;
+}
+
+#seccion-oradores{
+    background-color: white;
+}
+
+#titulo-oradores{
+    color: black;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#oradores{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#img-orador1, #img-orador2, #img-orador3 {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+#lugar-fecha{
+    background-color: #333333;
+}
+
+#img-playa{
+    width: 100%;
+}
+
+#texto-random{
+    color: white;
+    padding: 3%;
+    font-size: small;
+}
+
+#anotarse-orador{
+    color: gray;
+    font-size: small;
+}
+
+.form-group{
+    padding-top: 2rem;
+}
+
+#texto-abajo-form{
+    color: gray;
+    font-size: small;
+    text-align: left;
+}
+
+#cards{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-align: center;
+}
+
+.card-title, .card-text-1, .card-text-2, .card-text-3 {
+    text-align: center;
+    color: black;
+}
+
+.card-text-2{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card-text-3{
+    color: #333333;
+    font-size: small;
+}
+
+#titulo-venta{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#compraEntradas{
+    flex: content;
+    margin-top:2%; 
+    margin-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#barra-inferior{
+    background-color: #3D5A6E;    
+}
+
+.texto-barra-inferior{
+    text-decoration: none;
+    font-size: smaller;
+    color: white;
+}
